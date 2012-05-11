@@ -6,14 +6,20 @@ var async = require('async');
 var fs = require('fs');
 var path = require('path');
 var jsmeter = require('../lib/index');
+var optimist = require('optimist');
 
-var argv = require('optimist')
+var argv = optimist
   .usage('Usage: $0 [options] <files>')
   .options('o', {
     alias: 'output',
     default: './jsmeter/'
   })
   .argv;
+
+if (argv.help) {
+  optimist.showHelp();
+  process.exit(0);
+}
 
 var files = [];
 async.forEach(argv._, function (file, callback) {
