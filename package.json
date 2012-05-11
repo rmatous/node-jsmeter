@@ -1,0 +1,20 @@
+{
+  "name": "node-jsmeter",
+  "author": "Joe Ferner <joe.ferner@nearinfinity.com>",
+  "description": "Fork of jsmeter by Noah Peters",
+  "version": "0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nearinfinity/node-jsmeter.git"
+  },
+  "main": "./lib/index.js",
+  "bin": {
+    "jsmeter": "./bin/jsmeter.js"
+  },
+  "dependencies": {
+    "optimist": "~0.3.4",
+    "glob": "~3.1.9",
+    "async": "~0.1.18",
+    "mkdirp": "~0.3.2"
+  }
+}
