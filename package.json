@@ -2,10 +2,10 @@
   "name": "node-jsmeter",
   "author": "Joe Ferner <joe.ferner@nearinfinity.com>",
   "description": "Fork of jsmeter by Noah Peters",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nearinfinity/node-jsmeter.git"
+    "url": "git://github.com/joeferner/node-jsmeter.git"
   },
   "main": "./lib/index.js",
   "bin": {
