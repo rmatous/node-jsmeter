@@ -5,7 +5,7 @@
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nearinfinity/node-jsmeter.git"
+    "url": "git://github.com/joeferner/node-jsmeter.git"
   },
   "main": "./lib/index.js",
   "bin": {
